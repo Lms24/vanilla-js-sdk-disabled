@@ -6,7 +6,7 @@ import { setupCounter } from "./counter.ts";
 import * as Sentry from "@sentry/browser";
 
 Sentry.init({
-  dsn: "https://33f3f99d7064495b95ccacfb9225bbbf@o447951.ingest.us.sentry.io/4504689757257728",
+  dsn: "https://d24ca079f03e4e7098c341e9eb68a425@o447951.ingest.us.sentry.io/4505001491365888",
   integrations: [
     Sentry.browserTracingIntegration(),
     Sentry.replayIntegration({
